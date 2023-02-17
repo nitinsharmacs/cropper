@@ -1,0 +1,46 @@
+.selector {
+  background-color: rgba(62, 191, 238, 0.5);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selector-center {
+  position: relative;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+.selector-center::before {
+  content: '';
+  width: 20px;
+  height: 1px;
+  background-color: rgb(85, 138, 156);
+  position: absolute;
+  top: 10px;
+}
+
+.selector-center::after {
+  content: '';
+  width: 20px;
+  height: 1px;
+  background-color: rgb(85, 138, 156);
+  position: absolute;
+  transform: rotate(90deg);
+  top: 10px;
+}
+
+.control-point {
+  width: 20px;
+  height: 20px;
+  background-color: rgba(62, 191, 238, 1);
+  position: absolute;
+}
+
+.se {
+  cursor: se-resize;
+  right: -10px;
+  bottom: -10px;
+}

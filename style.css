@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cropper {
+  width: 600px;
+  padding: 1em;
+}
+
+.crop-area {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1/1;
+  background-color: rgb(238, 234, 234);
+}
+
+.cropper-controls {
+  margin-top: 1em;
+}
+
+.btn {
+  outline: none;
+}
